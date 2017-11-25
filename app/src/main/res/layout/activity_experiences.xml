@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/experiencesActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.kolmardenapp.ExperiencesActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/elephant"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/elephant"
+            android:text="Afrikansk elefant"
+            android:textSize="32sp"
+            android:fontFamily="sans-serif-light"/>
+
+        <Button
+            android:id="@+id/orangutang"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/orangutang"
+            android:text="Orangutang"
+            android:textSize="32sp"
+            android:fontFamily="sans-serif-light"/>
+
+        <Button
+            android:id="@+id/elephant2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/elephant"
+            android:text="Afrikansk elefant"
+            android:textSize="32sp"
+            android:fontFamily="sans-serif-light"/>
+
+        <Button
+            android:id="@+id/orangutang2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/orangutang"
+            android:text="Orangutang"
+            android:textSize="32sp"
+            android:fontFamily="sans-serif-light"/>
+
+    </LinearLayout>
+</ScrollView>

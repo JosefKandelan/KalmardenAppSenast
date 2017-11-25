@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_popUp"
+        android:title="Meny">
+        <!-- "file" submenu -->
+        <menu>
+            <item android:id="@+id/menu_visit"
+                android:title="Besöka oss"/>
+            <item android:id="@+id/menu_experiences"
+                android:title="Upplevelser"/>
+            <item android:id="@+id/menu_map"
+                android:title="Visa karta"/>
+            <item android:id="@+id/menu_happenings"
+                android:title="Nyheter"/>
+        </menu>
+    </item>
+
+</menu>
