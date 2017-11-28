@@ -47,6 +47,16 @@
             android:layout_alignStart="@+id/button2"
             android:layout_below="@+id/button2"
             android:text="@string/stop_geofencing" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/StrLocMon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="88dp"
+            android:text="Välkommen till Kolmården!"
+            android:visibility="invisible" />
     </RelativeLayout>
     //test
 
