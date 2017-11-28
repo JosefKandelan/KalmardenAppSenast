@@ -48,5 +48,6 @@
             android:layout_below="@+id/button2"
             android:text="@string/stop_geofencing" />
     </RelativeLayout>
+    //test
 
 </FrameLayout>
